@@ -1,0 +1,31 @@
+/* Estilo para o formulário */
+form {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+/* Estilo para os campos de entrada */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para o botão "Calculate" */
+#calculate {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilo para o resultado */
+#result {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
