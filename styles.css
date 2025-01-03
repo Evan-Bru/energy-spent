@@ -10,11 +10,21 @@ body {
     overflow: hidden; /* Evita barras de rolagem */
 }
 
+#title{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Estilo para o container */
 #container {
     width: 90vh;
     height: 100%;
-    padding: 170px;
+    padding: 150px;
     border: 10px solid white;
     border-radius: 80px;
     background-color: gray;
@@ -75,9 +85,3 @@ input{
     margin-left: 10px;
 }
 
-/* Estilo para o resultado */
-#result {
-    text-align: center;
-    margin-top: 20px;
-    font-weight: bold;
-}

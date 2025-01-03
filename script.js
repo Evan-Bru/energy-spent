@@ -25,17 +25,4 @@ calculateButton.addEventListener("click", function() {
     }       
 });
 
-//Consumo (em kWh/mês) = (Potência do PC x horas de uso por dia x quantidade de dias)/1.000
-
-
-/*
-        // Exibindo o resultado
-        resultDiv.textContent = `Consumption: ${consumo} kWh`;
-    } else {
-        // Exibindo uma mensagem de erro se os valores forem inválidos
-        resultDiv.textContent = "Invalid input. Please enter valid numbers.";
-    }
-*/
-
-
 
